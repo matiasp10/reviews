@@ -35,7 +35,7 @@ function showPerson(person) {
   paragraph.textContent = item.paragraph;
 }
 
-window.addEventListener('click', () => {
+window.addEventListener('DOMContentLoaded', () => {
   showPerson(actualReview);
 });
 
